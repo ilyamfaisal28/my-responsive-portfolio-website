@@ -1,2 +1,4 @@
-# my responsive portfolio website
- This is My Responsive Personal Portfolio Website using HTML, CSS, & JavaScript.
+# My Responsive Portfolio Website
+ This is my portfolio website using HTML, CSS, & JavaScript. Hostinged using Firebase freemium.
+ 
+ You can see the this final version of my website here: (https://www.ilyam-faisal.web.app)
