@@ -13,12 +13,12 @@
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
   */
-  --first-hue: 250;
-  --sat: 66%;
-  --lig: 75%;
+  --first-hue: 187;
+  --sat: 71%;
+  --lig: 50%;
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 46%); /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
@@ -357,7 +357,7 @@ body.light-theme{
 }
  
 .home__social{
-  bottom: 5rem;
+  bottom: 4rem;
   left: 0;
   display: grid;
   row-gap: .5rem;
@@ -394,7 +394,7 @@ body.light-theme{
   display: flex;
   row-gap: 2.5rem;
   align-items: flex-end;
-  top: 73%;
+  top: 29%;
   flex-direction: column;
   position: absolute;
   /* color: var(--first-color);
@@ -972,7 +972,7 @@ body.light-theme{
     justify-content: center;
   }
   .skills__content{
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
   }
 
   .services__container{
@@ -984,7 +984,7 @@ body.light-theme{
     padding: 4.5rem 2.5rem 2.5rem;
   }
   .services__modal-description{
-    padding: 0 3.5rem;
+    padding: 0;
   }
 
   .work__container{
@@ -1064,7 +1064,7 @@ body.light-theme{
     column-gap: 2rem;
   }
   .about__img{
-    width: 370px;
+    width: 400px;
   }
   .about__data{
     text-align: initial;
@@ -1082,12 +1082,12 @@ body.light-theme{
   }
 
   .skills__container{
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(2, 460px);
     column-gap: 3rem;
   }
 
   .services__container{
-    grid-template-columns: repeat(3, 192px);
+    grid-template-columns: repeat(3, 225px);
     column-gap: 3rem;
   }
   .services__card{
